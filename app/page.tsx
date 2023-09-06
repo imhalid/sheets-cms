@@ -15,7 +15,7 @@ export default function Home() {
     const fetchData = async () => {
   try {
     setLoading(true)
-    const res = await fetch('https://script.google.com/macros/s/AKfycbxhgwuAVZLAAmCgnANRGJGj5Rncmk0HE9vM8Ir8jCd6floARzqv3rXcI24uT4_LNoVs7Qexec')
+    const res = await fetch('https://script.google.com/macros/s/AKfycbxxu_z0KVgP-aNwhsiMdyVg7uiMAGq4DRUpV84S7QdBbLRiuEGh41rxc0BATlrS24pQAg/exec')
     if (!res.ok) {
       throw new Error('Network response was not ok')
     }
